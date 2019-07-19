@@ -1,0 +1,40 @@
+.slider {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.slide {
+  position: relative;
+  img {
+    max-width: 100%;
+  }
+}
+
+.slide-content {
+  position: absolute;
+  font-size: 54px;
+  bottom: 40px;
+  left: 17%;
+  transform:translateX(-50%);
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  .colored {
+    color: #f4b60d;
+  }
+  h2 {
+    display: inline-block;
+    background: RGBA(0,0,0, 0.8);
+    padding-left: 30px;
+    padding-right: 30px;
+    &:first-child {
+      padding-top: 20px;
+     }
+    &:last-child {
+      padding-bottom: 20px;
+      padding-top: 10px;
+     }
+   }
+}
